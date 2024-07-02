@@ -1,0 +1,29 @@
+body{
+	display: flex;
+	height: 90vh;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	text-transform: uppercase;
+	background: linear-gradient(to right, #ff0000, #ffcc00);
+	color: rgba(0, 0, 0, 0.5);
+}
+
+.colors{
+	display: flex;
+	justify-content: center;
+	gap:10px;
+}
+
+h1{
+	letter-spacing: 10px;
+}
+
+h2{
+	letter-spacing: 5px;
+}
+
+h3{
+text-transform: none;
+color: rgba(0, 0, 0, 0.6);
+}
